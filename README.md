@@ -1,9 +1,15 @@
 # 京路 Jinglu｜路线规划、点位避让与导航
+
 京路是一款 Android 出行工具，支持地图点位查看、路线规划、点位避让、语音导航和常用路线收藏。适合需要结合点位信息比较北京六环、高速及普通道路出行方案的用户。
-**[下载 Android APK](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-v0.8.27-37)** · **[稳定频道与版本说明](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-stable)** · **[意见反馈](https://jd9eltsa.jsjform.com/f/MSclVF)**
+
+**[下载 Android APK](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-v0.8.27-37)** · **[稳定频道与版本说明](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-stable)**
+
 当前公开版：**0.8.27（37）**，最低支持 **Android 8.0（API 26）**。其他平台的安装包暂未在此提供。
+
 > 下载时请选择 Assets 中后缀为 `.apk` 的文件。`Source code (zip / tar.gz)` 是 GitHub 自动生成的仓库快照，不能安装到手机。
+
 ## 京路能做什么
+
 | 功能 | 使用方式 |
 | --- | --- |
 | 地图与点位 | 在地图上查看本机点位，搜索地点或手动选点，查看点位名称及方向信息。 |
@@ -12,28 +18,39 @@
 | 导航与语音 | 沿选定路线导航，显示转向、进度和途经点，支持语音提示及偏航后的重新规划。 |
 | 常用路线与地点收藏 | 保存路线轨迹与地点，恢复收藏后重新核验；完整路线缩略图在本机缓存并随路线更新。 |
 | 数据与问题排查 | 区分来源更新时间和本机同步时间，支持本机备份，以及有空间上限、由用户控制的导航和异常日志。 |
-| 更新与反馈 | 在 App 内检查 GitHub 版本、下载校验并交给系统安装；通过反馈表单反馈问题。 |
+| 更新与反馈 | 在 App 内检查 GitHub 版本、下载校验并交给系统安装；通过 App 内的意见反馈入口报告问题。 |
+
 如果仍有目标点位未能绕开，App 会展示具体点位，开始导航前需再次确认。路线及点位判断取决于数据和道路条件，不承诺每次都能完全绕开；实际出行请以道路标志和现行通行要求为准。
+
 ## 界面预览
+
 下图来自专用模拟器的测试场景，使用测试点位和轨迹；离线画面仅展示点位与路线，联网底图需在 App 中按需开启。图中距离、方向和速度为测试数据。
+
 | 地图与点位 | 路线核验 |
 | :---: | :---: |
 | <img src="map-overview.png" width="280" alt="京路地图页面：测试点位查看与继续规划入口"> | <img src="route-review.png" width="280" alt="京路路线页面：未绕开点位的名称、方向、距离和导航入口"> |
+
 | 导航与语音 | 常用地点收藏 |
 | :---: | :---: |
 | <img src="navigation.png" width="280" alt="京路导航页面：转向、进度、语音与结束导航"> | <img src="favorites.png" width="280" alt="京路常用页面：路线收藏与地点收藏入口"> |
+
 ## 安装与首次使用
+
 1. 打开上方 **下载 Android APK**，在 Assets 中下载 `.apk` 文件，并按 Android 系统提示安装。
 2. 首次进入阅读隐私说明，再按需要开启联网和定位权限。导航建议授予精确定位权限。
 3. 在启动弹窗或“我的 → 地图与隐私设置”中填写**你自己的高德 Web 服务 Key**。没有 Key 时，可先阅读 App 内的四步图文教程。
 4. 在“路线”中设置起点、终点和途经点，规划并查看路线及剩余目标；确认后开始导航。
 5. 常用路线和地点可保存到“常用”，下次恢复后按提示重新核验。
+
 ## 高德 Key 申请教程
+
 京路的自动避让规划需要用户自行配置高德 **Web 服务 Key**。
+
 1. 打开 [高德开放平台控制台](https://console.amap.com/)，登录自己的账号。
 2. 在“应用管理 → 我的应用”创建应用，再添加 Key。
 3. **服务平台选择“Web 服务”**。此输入框不使用 Android SDK 或 Web 端（JS API）类型的 Key。
 4. 复制 Key 回京路保存，并按需要开启联网。保存 Key 与同意联网是独立操作。
+
 [官方创建应用和 Key 说明](https://developer.amap.com/api/webservice/create-project-and-key) · [官方流量限制说明](https://developer.amap.com/api/webservice/guide/tools/flowlevel)
 
 App 内教程可离线阅读；下图是应用中的操作示意，不包含真实账号或 Key。
