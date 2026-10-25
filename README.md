@@ -2,9 +2,9 @@
 
 京路是一款 Android 出行工具，支持地图点位查看、路线规划、点位避让、语音导航和常用路线收藏。适合需要结合点位信息比较北京六环、高速及普通道路出行方案的用户。
 
-**[下载 Android APK](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-v0.8.27-37)** · **[稳定频道与版本说明](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-stable)**
+**[下载 Android APK](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-v0.8.29-39)** · **[稳定频道与版本说明](https://github.com/nvwapeace/jinglu-releases/releases/tag/android-stable)**
 
-当前公开版：**0.8.27（37）**，最低支持 **Android 8.0（API 26）**。其他平台的安装包暂未在此提供。
+当前公开版：**0.8.29（39）**，最低支持 **Android 8.0（API 26）**。其他平台的安装包暂未在此提供。
 
 > 下载时请选择 Assets 中后缀为 `.apk` 的文件。`Source code (zip / tar.gz)` 是 GitHub 自动生成的仓库快照，不能安装到手机。
 
@@ -13,6 +13,7 @@
 | 功能 | 使用方式 |
 | --- | --- |
 | 地图与点位 | 在地图上查看本机点位，搜索地点或手动选点，查看点位名称及方向信息。 |
+| 自定义点位 | 地图长按选点，填写名称、行驶方向和道路归属；本机独立保存，支持编辑删除与备份恢复，网站同步保留。 |
 | 路线规划与点位避让 | 设置起点、终点和途经点，比较路线；规划和核验会结合方向、道路归属及可用证据判断点位。 |
 | 北京六环与高速出行 | 对比六环进出口接驳、高速与普通道路候选，结合完整路线查看距离、时间和剩余目标。 |
 | 导航与语音 | 沿选定路线导航，显示转向、进度和途经点，支持语音提示及偏航后的重新规划。 |
